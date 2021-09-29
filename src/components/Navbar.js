@@ -40,21 +40,15 @@ function Navbar() {
             {click ? <FaTimes /> : <FaBars />}
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className="nav-item">
-              <Link to="/" className="navlinks">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/projects" className="navlinks">
-                Projects
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/blogs" className="navlinks">
-                Blogs
-              </Link>
-            </li>
+            <Link to="/" className="navlinks">
+              <li className="nav-item">Home</li>
+            </Link>
+            <Link to="/projects" className="navlinks">
+              <li className="nav-item">Projects</li>
+            </Link>
+            <Link to="/blogs" className="navlinks">
+              <li className="nav-item">Blogs</li>
+            </Link>
 
             <li className="nav-btn">
               {button ? (
