@@ -90,8 +90,10 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-color: #f7eae4;
-  color: #75887b;
-  border-style: solid;
+}
+
+/* Button styles for when the menu is active */
+.nav-menu.active .btn {
   border-color: #f7eae4;
+  color: #f7eae4;
 }
