@@ -100,6 +100,13 @@
   display: none;
 }
 
+.nav-links.hover {
+  border: none;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+  color: #75887b;
+}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
@@ -116,6 +123,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     background: #75887b;
+    justify-content: space-around;
   }
 
   .nav-menu.active {
@@ -137,14 +145,17 @@
     color: #9b6e1e;
   }
 
+  .nav-item:hover {
+    border: none;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    color: #9b6e1e;
+  }
   .nav-links:hover {
+    border: none;
     color: #75887b;
     transform: scale(1.2);
     transition: all 0.3s ease;
-  }
-
-  .nav-item:hover {
-    border: none;
   }
 
   .nav-item {
@@ -152,12 +163,19 @@
     color: #f7eae4;
     font-size: 1.8rem;
   }
+  .nav-item:hover {
+    border: none;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    color: #9b6e1e;
+  }
 
   .navbar-logo {
     position: absolute;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
+    justify-self: start;
   }
 
   .menu-icon {

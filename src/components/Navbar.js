@@ -40,19 +40,23 @@ function Navbar() {
             {click ? <FaTimes /> : <FaBars />}
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <Link to="/" className="navlinks">
-              <li className="nav-item">Home</li>
+            <Link to="/" className="navlinks" onClick={closeMolibeMenu}>
+              <li className="nav-item">About me</li>
             </Link>
-            <Link to="/projects" className="navlinks">
+            <Link to="/projects" className="navlinks" onClick={closeMolibeMenu}>
               <li className="nav-item">Projects</li>
             </Link>
-            <Link to="/blogs" className="navlinks">
+            <Link to="/blogs" className="navlinks" onClick={closeMolibeMenu}>
               <li className="nav-item">Blogs</li>
             </Link>
 
             <li className="nav-btn">
               {button ? (
-                <Link to="/sign-up" className="btn-link">
+                <Link
+                  to="/sign-up"
+                  className="btn-link"
+                  onClick={closeMolibeMenu}
+                >
                   <Button buttonStyle="btn--outline">Say Hi</Button>
                 </Link>
               ) : (
