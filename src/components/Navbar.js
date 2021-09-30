@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Button } from '../button';
 import './Navbar.css';
-import { IconContext } from 'react-icons/lib';
+// import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
   const [click, setClick] = useState(false);
