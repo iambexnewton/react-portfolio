@@ -38,20 +38,6 @@
   font-weight: bold;
 } */
 
-/* .btn--mobile {
-  text-align: center;
-  border-radius: 4px;
-  width: 80%;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold;
-  background-color: #f7eae4;
-  color: #75887b;
-  padding: 14px 20px;
-  border: solid #75887b;
-  transition: all 0.3s ease-out;
-} */
-
 /* .btn--wide {
   padding: 12px 64px;
   font-size: 20px;
@@ -84,9 +70,7 @@
   color: #f7eae4;
 }
 
-.btn-mobile.active:hover {
+.nav-menu.active .btn:hover {
   color: #75887b;
   background-color: #f7eae4;
-  border-style: solid;
-  border-color: #f7eae4;
 }
