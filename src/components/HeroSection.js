@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
-import { Button } from '../button';
+
 import { Link } from 'react-router-dom';
 
 function HeroSection({
@@ -10,7 +10,7 @@ function HeroSection({
   lightTextDesc,
   headline,
   description,
-  buttonLabel,
+
   img,
   alt,
   imgStart,
@@ -37,11 +37,6 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to="/sign-up">
-                  <Button buttonSize="btn--wide" buttonColor="blue">
-                    {buttonLabel}
-                  </Button>
-                </Link>
               </div>
             </div>
             <div className="col">
