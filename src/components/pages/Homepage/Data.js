@@ -1,7 +1,6 @@
 export const homeObjOne = {
-  lightBg: false,
-  lightText: true,
-
+  lightBg: true,
+  lightText: false,
   topLine: 'Rebecca Newton',
   headline: 'Developer',
   description:
@@ -9,9 +8,9 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'Rebecca Newton',
   headline: 'Developer',
 

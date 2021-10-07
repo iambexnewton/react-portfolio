@@ -22,7 +22,11 @@ const BlogTile = (props) => {
           <h3 className="title">{truncateText(cleanTitle(title), 60)}</h3>
           <h4 className="date">{convertDate(pubDate)} </h4>
           <br />
-          <p className="blog-Text">{truncateText(toText(content), 500)}...</p>
+          <p className="blog-Text">
+            {truncateText(toText(content), 500)}...
+          </p>{' '}
+          <br />
+          <div className="read-more">Read More</div>
         </div>
       </a>
     );

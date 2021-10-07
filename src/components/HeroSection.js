@@ -10,7 +10,6 @@ function HeroSection({
   lightTextDesc,
   headline,
   description,
-
   img,
   alt,
   imgStart,

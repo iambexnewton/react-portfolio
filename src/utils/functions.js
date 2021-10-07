@@ -1,5 +1,3 @@
-import React from 'react';
-
 export function cleanTitle(checkTitle) {
   checkTitle = checkTitle.replace('amp;', '');
   return checkTitle;

@@ -6,7 +6,7 @@ font-family: 'Open Sans', sans-serif;
 
 #f7eae4 pink #9b6e1e gold #75887b green .home__hero-section {
   background-color: #f7eae4;
-  color: #f7eae4;
+
   padding: 160px 0;
 }
 
@@ -26,12 +26,12 @@ font-family: 'Open Sans', sans-serif;
   padding-right: 15px;
   padding-left: 15px;
   flex: 1;
-  max-width: 50%;
-  flex-basis: 50%;
+  max-width: 80%;
+  flex-basis: 60%;
 }
 
 .home__hero-text-wrapper {
-  max-width: 540px;
+  max-width: 700px;
   padding-top: 0;
   padding-bottom: 60px;
 }
@@ -39,19 +39,19 @@ font-family: 'Open Sans', sans-serif;
 .top-line {
   font-size: 30px;
   line-height: 1.4;
-  font-weight: 700;
   letter-spacing: 1.4px;
-  text-transform: uppercase;
+  font-family: 'DM Serif Display', sans-serif;
   margin-bottom: 16px;
-  color: #75887b;
+  color: #9b6e1e;
+  text-align: right;
 }
 
-.heading {
+.headline {
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.4;
-  font-weight: 600;
-  color: #f7f8fa;
+  color: #9b6e1e;
+  text-align: right;
 }
 
 .dark {
