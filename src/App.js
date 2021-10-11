@@ -13,6 +13,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Homepage} />
+        <Route path="/blogs" component={BlogContainer} />
       </Switch>
       <BlogContainer />
       <Footer />

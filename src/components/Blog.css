@@ -27,7 +27,7 @@ p {
   padding-top: 5%;
   display: flex;
   flex-flow: row wrap;
-
+  justify-items: space-between;
   justify-content: space-evenly;
   align-content: center;
   width: 100%;
@@ -66,8 +66,9 @@ p {
 .read-more {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #75887b;
+  color: #9b6e1e;
   padding: 6px;
+  font-weight: bold;
 }
 /* web view */
 
