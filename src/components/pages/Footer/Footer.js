@@ -7,8 +7,6 @@ import {
   FaTwitter,
   FaLinkedin,
   FaMedium,
-  FaEnvelope,
-  FaEnvelopeOpen,
   FaEnvelopeSquare,
 } from 'react-icons/fa';
 
@@ -23,52 +21,58 @@ function Footer() {
         <Link to="/">Medium</Link>
       </div> */}
 
-      <div className="social-media-wrap">
-        <Link
-          className="social-icon-link"
-          Link
-          to="/"
-          target="_blank"
-          aria-label="LinkedIn"
-        >
-          <FaLinkedin />
-        </Link>
+      <div className="social-icons">
+        <div className="social-media-wrap">
+          <a
+            href="https://www.linkedin.com/in/rebecca-newton-43b1b3209/"
+            className="social-icon-link"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
+          </a>
 
-        <Link
-          className="social-icon-link"
-          href=""
-          target="_blank"
-          aria-label="Github"
-        >
-          <FaGithubAlt />
-        </Link>
+          <a
+            className="social-icon-link"
+            href="https://github.com/iambexnewton"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Github"
+          >
+            <FaGithubAlt />
+          </a>
 
-        <Link
-          className="social-icon-link"
-          to="/"
-          target="_blank"
-          aria-label="Email"
-        >
-          <FaEnvelopeSquare />
-        </Link>
+          <a
+            className="social-icon-link"
+            href="mailto:iambexnewton@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Email"
+          >
+            <FaEnvelopeSquare />
+          </a>
 
-        <Link
-          className="social-icon-link"
-          to="/https://twitter.com/hellobexnewton"
-          target="_blank"
-          aria-label="Twitter"
-        >
-          <FaTwitter />
-        </Link>
+          <a
+            className="social-icon-link"
+            href="/https://twitter.com/hellobexnewton"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Twitter"
+          >
+            <FaTwitter />
+          </a>
 
-        <Link
-          className="social-icon-link"
-          to="/"
-          target="_blank"
-          aria-label="Medium"
-        >
-          <FaMedium />
-        </Link>
+          <a
+            className="social-icon-link"
+            href="https://iambexnewton.medium.com/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Medium"
+          >
+            <FaMedium />
+          </a>
+        </div>
       </div>
     </div>
   );

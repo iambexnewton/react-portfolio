@@ -5,7 +5,7 @@ const BlogContainer = () => {
   //const medium url https://medium.com/feed/@iambexnewton
 
   const rss2json =
-    'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40iambexnewton';
+    'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40iambexnewton/';
 
   const [myBlog, setMyBlog] = useState([]);
 
@@ -21,7 +21,7 @@ const BlogContainer = () => {
     console.log(myBlog);
     return (
       myBlog.items &&
-      myBlog.items.map((blog) => {
+      myBlog.items.slice(0, 3).map((blog) => {
         return (
           blog.categories.length > 0 && (
             <BlogTile key={blog.pubDate} blogDate={blog} />
