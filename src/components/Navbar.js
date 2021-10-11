@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Button } from '../button';
 import './Navbar.css';
-// import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -32,7 +31,6 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo" onClick={closeMolibeMenu}>
-            {/* <MdFingerprint className="navbar-icon" /> Portfolio */}
             Portfolio
           </Link>
 
