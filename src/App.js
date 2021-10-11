@@ -13,8 +13,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Homepage} />
-        <Route path="/blogs" component={BlogContainer} />
       </Switch>
+      <Route path="/Blogs" exact component={BlogContainer} />
       <Footer />
     </Router>
   );
