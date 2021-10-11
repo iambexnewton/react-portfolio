@@ -34,7 +34,7 @@ p {
 }
 
 .PostContainer {
-  width: 375px;
+  width: 1000px;
   margin-bottom: 16px;
   color: whitesmoke;
   box-shadow: 0px 0px 6px 2px rgb(206, 197, 197);
@@ -42,13 +42,6 @@ p {
 
 .PostContainer a {
   color: black;
-}
-
-.Image {
-  width: 375px;
-  height: 275px;
-  object-fit: cover;
-  margin-bottom: 3%;
 }
 
 .TextContainer {
@@ -73,3 +66,7 @@ p {
 /* web view */
 
 /* mobile view */
+
+/* .PostContainer {
+  width: 600px;
+} */

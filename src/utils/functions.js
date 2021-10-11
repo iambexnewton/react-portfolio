@@ -3,8 +3,13 @@ export function cleanTitle(checkTitle) {
   return checkTitle;
 }
 
-export function truncateText(text, len) {
-  return text.length > len ? text.substring(0, len) : text;
+export function truncateText(text) {
+  var maxLength = 300;
+  var trimmedString = text.substr(0, maxLength);
+  return trimmedString.substr(
+    0,
+    Math.min(trimmedString.length, trimmedString.lastIndexOf(' ')),
+  );
 }
 
 export function toText(block) {
