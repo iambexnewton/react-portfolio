@@ -12,11 +12,13 @@
 .social-icon-link {
   color: #f7eae4;
   font-size: 24px;
+  display: flex;
 }
 
-.social-icon-link :hover {
+.social-icon-link:hover {
   color: #9b6e1e;
-  font-size: 24px;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
 }
 
 .social-media {
@@ -30,7 +32,7 @@
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: 20px auto 0 auto;
 }
 
 .social-icons {

@@ -7,7 +7,7 @@ import {
   FaTwitter,
   FaLinkedin,
   FaMedium,
-  FaEnvelopeSquare,
+  FaEnvelope,
 } from 'react-icons/fa';
 
 function Footer() {
@@ -50,7 +50,7 @@ function Footer() {
             rel="noreferrer"
             aria-label="Email"
           >
-            <FaEnvelopeSquare />
+            <FaEnvelope />
           </a>
 
           <a

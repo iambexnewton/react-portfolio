@@ -15,7 +15,7 @@ const BlogTile = (props) => {
     return (
       <a target="_blank" rel="noopener noreferrer" href={`${link}`}>
         <div className="textContainer">
-          <h3 className="title">{truncateText(cleanTitle(title), 60)}</h3>
+          <h3 className="title">{truncateText(cleanTitle(title), 50)}</h3>
           <h4 className="date">{convertDate(pubDate)} </h4>
           <br />
           <p className="blog-Text">{truncateText(toText(content))}...</p>

@@ -10,7 +10,6 @@ function HeroSection({
   description,
   img,
   alt,
-  imgStart,
 }) {
   return (
     <>
@@ -34,11 +33,6 @@ function HeroSection({
                 >
                   {description}
                 </p>
-              </div>
-            </div>
-            <div className="col">
-              <div className="home__hero-img-wrapper">
-                <img src={img} alt={alt} className="home__hero-img" />
               </div>
             </div>
           </div>
