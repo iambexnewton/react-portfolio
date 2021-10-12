@@ -48,28 +48,39 @@
   box-shadow: 0px 0px 6px 2px rgb(206, 197, 197);
 }
 
+/* text styling */
 .project-name {
   font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: underline;
   margin: 6px;
   color: black;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .information-text {
   font-family: 'Source Sans Pro', sans-serif;
+
   margin: 6px;
   color: black;
+  text-align: center;
 }
 
 .stack-title {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 6px;
+  padding-top: 12px;
   color: black;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: overline;
 }
 
 .stack-text {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 6px;
   color: black;
+  text-align: center;
 }
 
 image .project-img-wrapper {

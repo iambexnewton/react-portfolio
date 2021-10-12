@@ -1,16 +1,16 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
-
-import { homeObjOne, homeObjTwo } from './Data';
 import BlogContainer from '../../BlogContainer';
-import ProjectSection from '../Projects/projects';
+import ProjectSection from '../Projects/ProjectSection';
 
 function Homepage() {
   return (
     <main className="main">
-      <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjTwo} />
-      <ProjectSection />
+      <HeroSection />
+      <section>
+        Projects
+        <ProjectSection />
+      </section>
       <BlogContainer />
     </main>
   );

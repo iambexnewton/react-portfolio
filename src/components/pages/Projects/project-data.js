@@ -1,4 +1,4 @@
-export const projectObjOne = [
+export const projectObj = [
   {
     image: 'i am an image',
     project: 'project title',

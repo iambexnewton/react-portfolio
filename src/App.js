@@ -6,7 +6,7 @@ import './App.css';
 import Homepage from './components/pages/Homepage/Homepage.js';
 import Footer from './components/pages/Footer/Footer.js';
 import BlogContainer from './components/BlogContainer';
-import ProjectSection from './components/pages/Projects/projects';
+import Projects from './components/pages/Projects/projects';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Homepage} />
       </Switch>
-      <Route path="/Projects" exact component={ProjectSection} />
+      <Route path="/Projects" exact component={Projects} />
       <Route path="/Blogs" exact component={BlogContainer} />
       <Footer />
     </Router>
