@@ -18,10 +18,18 @@ const HeroSection = () => {
               <div className="home__hero-text-wrapper">
                 <div className="top-line">{topLine}</div>
                 <h1 className="heading">{headline}</h1>
-                <p className={'home__hero-subtitle'}>{description}</p>
+
+                <p className={'text'}>{description}</p>
                 {buttonLabel && (
                   <Link to="/email">
-                    <Button buttonColor="primary">{buttonLabel}</Button>
+                    <Button
+                      href="mailto:iambexnewton@gmail.com"
+                      target="_blank"
+                      rel="noreferrer"
+                      buttonColor="primary"
+                    >
+                      {buttonLabel}
+                    </Button>
                   </Link>
                 )}
               </div>

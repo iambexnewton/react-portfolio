@@ -6,6 +6,7 @@ export const homeObj = [
     headline: 'Junior Developer Portfolio',
     description:
       'This is a small collection of personal works I have created both during and after my time at Northcoders bootcamp. I enjoy continually growing and building on the skills I have learned.',
+    buttonLabel: 'Download my CV',
   },
 
   {

@@ -2,15 +2,15 @@ import React from 'react';
 import HeroSection from '../../HeroSection';
 import BlogContainer from '../../BlogContainer';
 import ProjectSection from '../Projects/ProjectSection';
+import Blogs from '../Blogs/blog';
 
 function Homepage() {
   return (
     <main className="main">
       <HeroSection />
-      <section>
-        Projects
-        <ProjectSection />
-      </section>
+      <div className="top-line">Projects.</div>
+      <ProjectSection />
+      <div className="top-line">Blogs.</div>
       <BlogContainer />
     </main>
   );
