@@ -50,13 +50,15 @@ function Navbar() {
 
             <li className="nav-btn">
               {button ? (
-                <Link
-                  to="/sign-up"
-                  className="btn-link"
-                  onClick={closeMolibeMenu}
-                >
-                  <Button buttonStyle="btn--outline">Say Hi</Button>
-                </Link>
+                <a href="mailto:iambexnewton@gmail.com">
+                  <Button
+                    buttonStyle="btn--outline"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Say Hi
+                  </Button>
+                </a>
               ) : (
                 <Link to="/sign-up" className="btn-link">
                   <Button buttonStyle="btn--outline" buttonSize="btn--mobile">

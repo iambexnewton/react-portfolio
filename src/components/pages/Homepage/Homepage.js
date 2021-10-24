@@ -2,7 +2,6 @@ import React from 'react';
 import HeroSection from '../../HeroSection';
 import BlogContainer from '../../BlogContainer';
 import ProjectSection from '../Projects/ProjectSection';
-import Blogs from '../Blogs/blog';
 
 function Homepage() {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '/Users/beckynewton/Desktop/react-projects/react-portfolio/src/button.js';
-import { Link } from 'react-router-dom';
+// import Mailto from 'react-Mailto';
+// import { Link } from 'react-router-dom';
 import { homeObj } from './pages/Homepage/Data';
 import './HeroSection.css';
 
@@ -21,16 +22,15 @@ const HeroSection = () => {
 
                 <p className={'text'}>{description}</p>
                 {buttonLabel && (
-                  <Link to="/email">
+                  <a href="mailto:iambexnewton@gmail.com">
                     <Button
-                      href="mailto:iambexnewton@gmail.com"
                       target="_blank"
                       rel="noreferrer"
                       buttonColor="primary"
                     >
                       {buttonLabel}
                     </Button>
-                  </Link>
+                  </a>
                 )}
               </div>
             </div>
