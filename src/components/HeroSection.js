@@ -7,7 +7,7 @@ import './HeroSection.css';
 
 const HeroSection = () => {
   return homeObj.map(
-    ({ lightBg, topLine, headline, description, buttonLabel }) => {
+    ({ lightBg, topLine, headline, description, buttonLabel, url }) => {
       return (
         <div
           className={`container ${
@@ -22,15 +22,14 @@ const HeroSection = () => {
 
                 <p className={'text'}>{description}</p>
                 {buttonLabel && (
-                  <a href="mailto:iambexnewton@gmail.com">
-                    <Button
-                      target="_blank"
-                      rel="noreferrer"
-                      buttonColor="primary"
-                    >
-                      {buttonLabel}
-                    </Button>
-                  </a>
+                  <Button
+                    url={url}
+                    target="_blank"
+                    rel="noreferrer"
+                    buttonColor="primary"
+                  >
+                    {buttonLabel}
+                  </Button>
                 )}
               </div>
             </div>

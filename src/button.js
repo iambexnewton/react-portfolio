@@ -14,6 +14,7 @@ export const Button = ({
   buttonStyle,
   buttonSize,
   buttonColor,
+  url,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -24,12 +25,13 @@ export const Button = ({
   const checkButtonColor = COLOR.includes(buttonColor) ? buttonColor : COLOR[0];
 
   return (
-    <button
+    <a
+      href={url}
       className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`}
       onClick={onClick}
       type={type}
     >
       {children}
-    </button>
+    </a>
   );
 };
