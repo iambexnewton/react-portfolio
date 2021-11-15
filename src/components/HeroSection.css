@@ -1,7 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Proza+Libre:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Proza+Libre:wght@400;500&family=Roboto:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Proza+Libre:wght@400;500&family=Roboto:wght@100;300&display=swap");
 
 /* #f7eae4 pink #9b6e1e gold #75887b green  */
-
 home__hero-section {
   background-color: #ffff;
 }
@@ -32,23 +37,27 @@ home__hero-section {
   padding-bottom: 60px;
 }
 
-.h1 {
+.heading {
   margin-bottom: 24px;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
   line-height: 1.4;
-  color: #75887b;
+  color: black;
 }
 .top-line {
-  font-size: 48px;
+  font-size: 30px;
   line-height: 1.4;
-  font-family: "DM Serif Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   margin-bottom: 16px;
-  color: #75887b;
+  color: black;
   text-align: left;
 }
 .text {
   line-height: 1.4;
   margin-left: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 .dark {
@@ -56,7 +65,7 @@ home__hero-section {
 }
 
 .darkBg {
-  background-color: #f7eae4;
+  background-color: #ffff;
 }
 
 .button {

@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Proza+Libre:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Proza Libre", sans-serif;
   text-decoration: none;
   line-height: 1.4;
 }
@@ -13,7 +15,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'DM Serif Display', sans-serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .main {

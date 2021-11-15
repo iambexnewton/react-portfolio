@@ -1,25 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 h3 {
-  font-family: 'DM Serif Display', sans-serif;
+  font-family: "DM Serif Display", sans-serif;
   color: #75887b;
   font-size: 30px;
   margin: 6px;
 }
 
 h4 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "DM Serif Display", sans-serif;
   font-weight: bold;
   font-size: 10px;
   margin: 6px;
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin: 6px;
 }
 
@@ -58,7 +58,7 @@ p {
 
 .read-more {
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #9b6e1e;
   padding: 6px;
   font-weight: bold;

@@ -31,7 +31,7 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo" onClick={closeMolibeMenu}>
-            Portfolio
+            Rebecca Newton
           </Link>
 
           <div className="menu-icon" onClick={HandleClick}>

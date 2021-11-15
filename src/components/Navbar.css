@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Proza+Libre:wght@500&display=swap");
 
 .navbar {
   box-sizing: border-box;
@@ -10,12 +12,11 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  font-family: "DM Serif Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   background-color: #ffff;
 }
 
 .navlinks {
-  text-decoration: none;
   color: #9b6e1e;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .navbar {
-  background: #f7eae4;
+  background: #ffff;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -58,7 +59,7 @@
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
 }
@@ -79,20 +80,17 @@
   color: #9b6e1e;
   display: flex;
   align-items: center;
-  text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  border-bottom: 3px solid transparent;
 }
 .nav-item:hover {
-  transform: scale(1.2);
-  transition: all 0.3s ease;
-  color: #75887b;
+  border-bottom-color: #75887b;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
 }
@@ -107,15 +105,13 @@
 }
 
 .nav-links.hover {
-  border: none;
-  transform: scale(1.2);
-  transition: all 0.3s ease;
-  color: #75887b;
+  border: bottom 3px #75887b;
 }
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
+    font-family: "Cormorant Garamond", serif;
   }
 
   .nav-menu {
@@ -152,13 +148,11 @@
   }
 
   .nav-item:hover {
-    border: none;
     transform: scale(1.2);
     transition: all 0.3s ease;
     color: #9b6e1e;
   }
   .nav-links:hover {
-    border: none;
     color: #75887b;
     transform: scale(1.2);
     transition: all 0.3s ease;
@@ -170,7 +164,6 @@
     font-size: 1.8rem;
   }
   .nav-item:hover {
-    border: none;
     transform: scale(1.2);
     transition: all 0.3s ease;
     color: #9b6e1e;
