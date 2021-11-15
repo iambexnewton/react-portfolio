@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 // import { MdFingerprint } from 'react-icons/md';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import { Button } from '../button';
-import './Navbar.css';
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Button } from "../button";
+import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -24,7 +24,7 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
@@ -37,13 +37,15 @@ function Navbar() {
           <div className="menu-icon" onClick={HandleClick}>
             {click ? <FaTimes /> : <FaBars />}
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <Link to="/" className="navlinks" onClick={closeMolibeMenu}>
               <li className="nav-item">Home</li>
             </Link>
+
             <Link to="/projects" className="navlinks" onClick={closeMolibeMenu}>
               <li className="nav-item">Projects</li>
             </Link>
+
             <Link to="/blogs" className="navlinks" onClick={closeMolibeMenu}>
               <li className="nav-item">Blogs</li>
             </Link>

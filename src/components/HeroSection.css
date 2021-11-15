@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;600&display=swap");
 
-#f7eae4 pink #9b6e1e gold #75887b green .home__hero-section {
-  background-color: #f7eae4;
+/* #f7eae4 pink #9b6e1e gold #75887b green  */
+
+home__hero-section {
+  background-color: #ffff;
 }
 
 .home__hero-row {
@@ -39,7 +41,7 @@
 .top-line {
   font-size: 48px;
   line-height: 1.4;
-  font-family: 'DM Serif Display', sans-serif;
+  font-family: "DM Serif Display", sans-serif;
   margin-bottom: 16px;
   color: #75887b;
   text-align: left;
