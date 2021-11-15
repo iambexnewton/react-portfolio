@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 .footer-container {
   background-color: #75887b;
-  padding: 4rem 0 2rem 0;
+  padding: 2rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 4px;
 }
 
 .social-icon-link {
   color: #f7eae4;
   font-size: 24px;
   display: flex;
+  margin-left: 30px;
 }
 
 .social-icon-link:hover {

@@ -50,25 +50,16 @@ function Navbar() {
               <li className="nav-item">Blogs</li>
             </Link>
 
-            <li className="nav-btn">
-              {button ? (
-                <a href="mailto:iambexnewton@gmail.com">
-                  <Button
-                    buttonStyle="btn--outline"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Say Hi
-                  </Button>
-                </a>
-              ) : (
-                <Link to="/sign-up" className="btn-link">
-                  <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
-                    Say Hi
-                  </Button>
-                </Link>
-              )}
-            </li>
+            <Link
+              href="mailto:iambexnewton@gmail.com"
+              to="/sign-up"
+              className="navlinks"
+              onClick={closeMolibeMenu}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li className="nav-item">Contact</li>
+            </Link>
           </ul>
         </div>
       </div>

@@ -1,11 +1,11 @@
-import React from 'react';
-import './Blog.css';
+import React from "react";
+import "./Blog.css";
 import {
   cleanTitle,
   truncateText,
   toText,
   convertDate,
-} from '../utils/functions';
+} from "../utils/functions";
 
 const BlogTile = (props) => {
   console.log(props);

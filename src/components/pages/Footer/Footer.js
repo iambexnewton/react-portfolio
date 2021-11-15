@@ -1,26 +1,18 @@
-import React from 'react';
-import './Footer.css';
-import { Button } from '../../../button';
-import { Link, NavLink } from 'react-router-dom';
+import React from "react";
+import "./Footer.css";
+import { Button } from "../../../button";
+import { Link, NavLink } from "react-router-dom";
 import {
   FaGithubAlt,
   FaTwitter,
   FaLinkedin,
   FaMedium,
   FaEnvelope,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 function Footer() {
   return (
     <div className="footer-container">
-      {/* <div className="footer-link-items">
-        <h2>Social Media</h2>
-        <Link to="/https://twitter.com/hellobexnewton">Twitter</Link>
-        <Link to="/">LinkedIn</Link>
-        <Link to="/">Github</Link>
-        <Link to="/">Medium</Link>
-      </div> */}
-
       <div className="social-icons">
         <div className="social-media-wrap">
           <a

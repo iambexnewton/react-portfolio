@@ -62,6 +62,7 @@
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 
 .navbar-icon {
@@ -102,6 +103,8 @@
 .menu-icon {
   display: none;
   color: #75887b;
+  margin-right: 12px;
+  padding-top: 2px;
 }
 
 .nav-links.hover {
@@ -191,6 +194,7 @@
   .fa-times {
     color: #9b6e1e;
     font-size: 2rem;
+    margin-right: 20px;
   }
 
   .nav-btn {

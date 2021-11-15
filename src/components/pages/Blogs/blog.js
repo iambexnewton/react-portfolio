@@ -1,5 +1,6 @@
-import React from 'react';
-import BlogContainer from '../../BlogContainer';
+import React from "react";
+import BlogContainer from "../../BlogContainer";
+import "../../../components/Blog.css";
 
 function Blogs() {
   return (
@@ -7,9 +8,7 @@ function Blogs() {
       <section className="section-wrapper">
         <div className="content-wrapper">
           <div className="top-line">A preview of my last 3 Blogs.</div>
-          <div className="headline">
-            Click the blog for more details and to view my previous Blogs.
-          </div>
+
           <BlogContainer />
         </div>
       </section>
