@@ -7,7 +7,7 @@ import "./HeroSection.css";
 
 const HeroSection = () => {
   return homeObj.map(
-    ({ lightBg, topLine, headline, description, buttonLabel, url }) => {
+    ({ lightBg, topLine, headLine, description, buttonLabel, url }) => {
       return (
         <div
           className={`container ${
@@ -18,12 +18,13 @@ const HeroSection = () => {
             <div className="home__hero-text-wrapper">
               <div className="top-line">{topLine}</div>
               <em>
-                <h1 className="heading">{headline}</h1>
+                <div className="head-line">{headLine}</div>
               </em>
-              <div classnaME="home_button-container">
+              <div className="home_button-container">
                 <p className={"text"}>{description}</p>
                 {buttonLabel && (
                   <Button
+                    className="btn"
                     url={url}
                     target="_blank"
                     rel="noreferrer"
