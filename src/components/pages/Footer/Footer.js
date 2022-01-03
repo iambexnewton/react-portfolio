@@ -47,7 +47,7 @@ function Footer() {
 
           <a
             className="social-icon-link"
-            href="/https://twitter.com/hellobexnewton"
+            href="https://twitter.com/hellobexnewton"
             target="_blank"
             rel="noreferrer"
             aria-label="Twitter"

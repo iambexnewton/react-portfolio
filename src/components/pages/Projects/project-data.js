@@ -5,6 +5,8 @@ export const projectObj = [
     information:
       "Created as a holiday itinerary keeper for my final project at Northcoders. Using a firebase database to store information, a user can update a trips instance, update travel and accomodation.",
     stack: "Javascript  React  Firebase  Ionic",
+    buttonLabel: "",
+    url: "",
   },
   {
     image: "fdjgfdk",
@@ -12,12 +14,33 @@ export const projectObj = [
     information:
       "Created by calling Nasa's image of the day API and using the data to return useful information to the client. ",
     stack: "Javascript React CSS ",
+    buttonLabel: "Hosted",
+    url: "https://bex-nasa-image-of-the-day.netlify.app/",
   },
   {
     image: "i am an image",
     project: "The Cakesmith",
     information:
       "This was a small project to learn more about React and Gatsby in order to build a responsive website ",
-    stack: "Gatsby  Reatc CSS",
+    stack: "Gatsby  React CSS",
+    buttonLabel: "",
+    url: "",
+  },
+  {
+    image: "public/assets/festive-match.png",
+    project: "Festive Match Game",
+    information: "This was a small project to learn more about React",
+    stack: "React CSS",
+    buttonLabel: "Hosted",
+    url: "https://festive-memory-game.netlify.app/",
+  },
+  {
+    image: "../src/assets/images/nc-news-image.png",
+    project: "NC News",
+    information:
+      "This was a small project to learn more about React and Gatsby in order to build a responsive website ",
+    stack: "React CSS",
+    buttonLabel: "Hosted",
+    url: "https://bex-nc-news.netlify.app/",
   },
 ];
