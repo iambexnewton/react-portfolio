@@ -1,5 +1,5 @@
-import React from 'react';
-import ProjectSection from './ProjectSection';
+import React from "react";
+import ProjectSection from "./ProjectSection";
 
 function Projects() {
   return (
