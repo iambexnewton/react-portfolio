@@ -15,13 +15,12 @@ const HeroSection = () => {
           }`}
         >
           <div className="row home__hero-row">
-            <div className="col">
-              <div className="home__hero-text-wrapper">
-                <div className="top-line">{topLine}</div>
-                <em>
-                  <h1 className="heading">{headline}</h1>
-                </em>
-
+            <div className="home__hero-text-wrapper">
+              <div className="top-line">{topLine}</div>
+              <em>
+                <h1 className="heading">{headline}</h1>
+              </em>
+              <div classnaME="home_button-container">
                 <p className={"text"}>{description}</p>
                 {buttonLabel && (
                   <Button

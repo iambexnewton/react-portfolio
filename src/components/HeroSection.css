@@ -11,10 +11,6 @@ home__hero-section {
   background-color: #ffff;
 }
 
-.btn {
-  justify-content: center;
-}
-
 .row {
   margin-right: 15px;
   margin-bottom: -15px;
@@ -68,20 +64,30 @@ home__hero-section {
   background-color: #ffff;
 }
 
-@media screen and (max-width: 991px) {
-  .container {
-    padding-right: 30px;
-    padding-left: 20px;
+@media screen and (max-width: 320px) {
+  .home__hero-text-wrapper {
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .home__hero-text-wrapper {
+    padding-bottom: 10px;
+    padding-right: 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .home__hero-text-wrapper {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
   }
+}
 
-  .col {
-    max-width: 100%;
-    flex-basis: 100%;
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
