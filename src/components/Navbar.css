@@ -113,7 +113,6 @@
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
-    font-family: "Cormorant Garamond", serif;
   }
 
   .nav-menu {

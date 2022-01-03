@@ -6,6 +6,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Proza+Libre:wght@400;500&family=Roboto:wght@100;300&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
 /* #f7eae4 pink #9b6e1e gold #75887b green  */
 home__hero-section {
   background-color: #ffff;
@@ -44,30 +46,30 @@ home__hero-section {
 
 .top-line {
   text-decoration: #75887b;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.4;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  margin-top: 50px;
-  margin-bottom: 16px;
-  margin-left: 0px;
+  margin-left: 20px;
   color: black;
   text-align: center;
+  text-decoration: underline;
 }
 .head-line {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 60px;
   text-align: center;
+  margin-top: 100px;
 }
 .text {
   line-height: 1.4;
   margin-left: 0px;
-  font-family: "Cormorant Garamond", serif;
-  font-style: italic;
-  font-weight: 300;
+  font-family: "Lora", serif;
+  font-weight: 100;
   text-align: center;
-  margin-bottom: 14px;
+  margin-bottom: 50px;
+  color: #75887b;
 }
 
 .dark {

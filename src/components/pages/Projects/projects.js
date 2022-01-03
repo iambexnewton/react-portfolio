@@ -6,9 +6,8 @@ function Projects() {
     <main className="main">
       <section className="section-wrapper">
         <div className="content-wrapper">
-          <div className="top-line">
-            Here is a small selection of projects I have created...
-          </div>
+          <div className="section-title">Projects</div>
+          <p className="text">Here is a small selection of projects.</p>
           <ProjectSection />
         </div>
       </section>

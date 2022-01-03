@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Proza+Libre:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Proza+Libre:wght@400;500&family=Roboto:wght@100;300&display=swap");
+
 :root {
   --primary: #fff;
 }
 
+/* #f7eae4 pink #9b6e1e gold #75887b green  */
 .btn {
   padding: 8px 20px;
   border-radius: 4px;
@@ -10,7 +13,7 @@
   border: none;
   cursor: pointer;
   white-space: nowrap;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .btn--primary {
@@ -44,10 +47,11 @@
 } */
 
 .primary {
-  background-color: #75887b;
+  background-color: #9b6e1e;
   color: #f7eae4;
   border-style: solid;
-  border-color: #75887b;
+  border-color: #f7eae4;
+  font-family: "Roboto", sans-serif;
 }
 
 .primary:hover {
