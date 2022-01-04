@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "../../../button";
-import { Link, NavLink } from "react-router-dom";
+
 import {
   FaGithubAlt,
   FaTwitter,

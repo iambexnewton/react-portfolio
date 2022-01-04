@@ -52,7 +52,7 @@ function Navbar() {
 
             <Link
               href="mailto:iambexnewton@gmail.com"
-              to="/sign-up"
+              to="/contact"
               className="navlinks"
               onClick={closeMolibeMenu}
               target="_blank"

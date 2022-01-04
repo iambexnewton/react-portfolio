@@ -1,5 +1,7 @@
 import ncNewsImg from "../../../assets/nc-news-image.png";
-
+import festiveMatchImg from "../../../assets/festive-match.png";
+import nasaImg from "../../../assets/nasa-image.png";
+import gatsbyImg from "../../../assets/gatsby-image.png";
 export const projectObj = [
   {
     image: "i am an image",
@@ -11,10 +13,10 @@ export const projectObj = [
     url: "",
   },
   {
-    image: "fdjgfdk",
-    project: "Nasa Picture of the Day",
+    image: nasaImg,
+    project: "Nasa Api image",
     information:
-      "Created by calling Nasa's image of the day API and using the data to return useful information to the client. ",
+      "Created by calling Nasa's image of the day API and using the data to return data. ",
     stack: "Javascript React CSS ",
     buttonLabel: "View project",
     url: "https://bex-nasa-image-of-the-day.netlify.app/",
@@ -29,9 +31,10 @@ export const projectObj = [
     url: "",
   },
   {
-    image: "public/assets/festive-match.png",
+    image: festiveMatchImg,
     project: "Festive Match Game",
-    information: "This was a small project to learn more about React",
+    information:
+      "This was a small project to learn more about React and javascript",
     stack: "React CSS",
     buttonLabel: "View project",
     url: "https://festive-memory-game.netlify.app/",
@@ -40,9 +43,18 @@ export const projectObj = [
     image: ncNewsImg,
     project: "NC News",
     information:
-      "This was a small project to learn more about React and Gatsby in order to build a responsive website ",
+      "A project to learn more about React in order to build a responsive site",
     stack: "React CSS",
     buttonLabel: "View project",
     url: "https://bex-nc-news.netlify.app/",
+  },
+  {
+    image: gatsbyImg,
+    project: "Gatsby Practice",
+    information:
+      "This was a small project to learn more about Gatsby and Graphiql website ",
+    stack: "React Gatsby",
+    buttonLabel: "View project",
+    url: "https://gatsby-query-practice.netlify.app/",
   },
 ];
