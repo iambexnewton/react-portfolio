@@ -3,17 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 h3 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
+  font-size: 24px;
+  font-weight: 200;
   color: #75887b;
-  font-size: 30px;
-  margin: 6px;
+  margin: 10px;
 }
 
 h4 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-weight: bold;
-  font-size: 10px;
-  margin: 6px;
+  font-size: 8px;
+  margin: 10px;
 }
 
 p {
@@ -21,11 +22,13 @@ p {
   margin: 6px;
 }
 
-headline {
-  font-size: 16px;
+.blog-title {
   font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
 }
-
 .BlogsContainer {
   padding-top: 5%;
   display: flex;

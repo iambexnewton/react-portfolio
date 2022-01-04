@@ -7,7 +7,8 @@ function Blogs() {
     <main className="main">
       <section className="section-wrapper">
         <div className="content-wrapper">
-          <div className="top-line">A preview of my last 3 Blogs.</div>
+          <div className="section-title">Blogs</div>
+          <div className="text">A preview of my last 3 Blogs.</div>
 
           <BlogContainer />
         </div>
