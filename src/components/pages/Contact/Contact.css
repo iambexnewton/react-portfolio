@@ -10,13 +10,53 @@
   margin-top: 40px;
 }
 .contact-Text {
-  line-height: 1.4;
+  line-height: 1.4em;
   font-size: 14px;
-  margin-bottom: 4px;
+  margin: 6px 6px 20px 0px;
   font-family: "Roboto", sans-serif;
 }
 
 .socials-container {
   display: grid;
-  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.form-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 6px;
+}
+
+.form-wrapper {
+  border: 1px solid #9b6e1e;
+  margin: 90px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 2px rgb(206, 197, 197);
+}
+
+input {
+  width: 600px;
+}
+textarea {
+  height: 10em;
+  width: 600px;
+}
+
+/* div[role="alert"] {
+  color: red;
+  margin-top: 1em;
+} */
+
+.message-chars-left {
+  width: 600px;
+  margin: auto;
+  text-align: left;
 }

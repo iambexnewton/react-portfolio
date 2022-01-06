@@ -40,7 +40,6 @@ home__hero-section {
 .home__hero-text-wrapper {
   max-width: 1400px;
   padding-top: 0;
-  padding-bottom: 60px;
   padding-left: 4px;
 }
 
@@ -67,7 +66,7 @@ home__hero-section {
   font-family: "Lora", serif;
   font-weight: 100;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: #75887b;
 }
 

@@ -9,7 +9,6 @@ function Blogs() {
         <div className="content-wrapper">
           <div className="section-title">Blogs</div>
           <div className="text">A preview of my last 3 Blogs.</div>
-
           <BlogContainer />
         </div>
       </section>
