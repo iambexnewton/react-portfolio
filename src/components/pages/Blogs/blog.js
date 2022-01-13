@@ -3,6 +3,7 @@ import BlogContainer from "../../BlogContainer";
 import "../../../components/Blog.css";
 
 function Blogs() {
+  document.title = "Blogs";
   return (
     <main className="main">
       <section className="section-wrapper">

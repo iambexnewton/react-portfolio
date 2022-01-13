@@ -6,6 +6,7 @@ import { homeObj } from "./pages/Homepage/Data";
 import "./HeroSection.css";
 
 const HeroSection = () => {
+  document.title = "Home";
   return homeObj.map(
     ({ lightBg, topLine, headLine, description, buttonLabel, url }) => {
       return (

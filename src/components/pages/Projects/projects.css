@@ -4,6 +4,10 @@
 
 /* #f7eae4 pink #9b6e1e gold #75887b green  */
 
+.main {
+  margin: 1rem;
+  padding: 1rem;
+}
 .project-container {
   padding-top: 5%;
   display: flex;
@@ -133,4 +137,27 @@ image {
 .projects-text-container .btn {
   display: block;
   margin-top: 20px;
+}
+
+.video-container__wrapper {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.video-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  display: center;
+}
+
+.video-player {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  display: center;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
 }

@@ -4,8 +4,8 @@ import { Button } from "/Users/beckynewton/Desktop/react-projects/react-portfoli
 import "/Users/beckynewton/Desktop/react-projects/react-portfolio/src/components/pages/Contact/Contact.css";
 
 function ContactPage() {
+  document.title = "Contact";
   const { register, handleSubmit, watch, errors } = useForm();
-
   const onSubmit = (data) => console.log(data);
   const message = watch("message") || "";
   const messageCharsLeft = 1500 - message.length;
