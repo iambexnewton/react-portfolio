@@ -1,7 +1,17 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 import { Button } from "/Users/beckynewton/Desktop/react-projects/react-portfolio/src/button.js";
 import "/Users/beckynewton/Desktop/react-projects/react-portfolio/src/components/pages/Contact/Contact.css";
+
+// <script type="text/javascript"
+//         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+// </script>
+// <script type="text/javascript">
+//    (function(){
+//       emailjs.init("YOUR_USER_ID");
+//    })();
+// </script>
 
 function ContactPage() {
   document.title = "Contact";
@@ -22,10 +32,15 @@ function ContactPage() {
             <div>Medium</div>
           </div>
         </div>
+
         <div className="form-section-wrapper">
           <div className="form-title">Send me an email</div>
           <div className="form-wrapper" onSubmit={handleSubmit(onSubmit)}>
-            <form onSubmit={handleSubmit(onSubmit)} id="contact-form">
+            <form
+              onSubmit={handleSubmit(onSubmit)}
+              className="contact-form"
+              id="contact-form"
+            >
               <input
                 type="text"
                 className="user_name"
