@@ -26,10 +26,38 @@ function ContactPage() {
           <div className="contact-title">Contact</div>
           <div className="text">Say hi</div>
           <div className="socials-container">
-            <div>LinkedIn</div>
-            <div>Github</div>
-            <div>Twitter</div>
-            <div>Medium</div>
+            <a
+              href="https://www.linkedin.com/in/rebecca-newton-43b1b3209/"
+              className="social-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              className="social-link"
+              href="https://github.com/iambexnewton"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              className="social-link"
+              href="https://twitter.com/hellobexnewton"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitter
+            </a>
+            <a
+              className="social-link"
+              href="https://iambexnewton.medium.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Medium
+            </a>
           </div>
         </div>
 

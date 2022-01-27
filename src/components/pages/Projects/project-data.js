@@ -52,7 +52,7 @@ export const projectObj = [
     image: gatsbyImg,
     project: "Gatsby Practice",
     information:
-      "This was a small project to learn more about Gatsby and Graphiql website ",
+      "This was a small project to learn more about Gatsby and Graphiql",
     stack: "React Gatsby",
     buttonLabel: "View project",
     url: "https://gatsby-query-practice.netlify.app/",
