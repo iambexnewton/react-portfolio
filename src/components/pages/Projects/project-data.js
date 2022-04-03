@@ -49,12 +49,11 @@ export const projectObj = [
     url: "https://bex-nc-news.netlify.app/",
   },
   {
-    image: gatsbyImg,
-    project: "Gatsby Practice",
-    information:
-      "This was a small project to learn more about Gatsby and Graphiql",
-    stack: "React Gatsby",
+    image: wiseRootImg,
+    project: "The Wise Root",
+    information: "Live commercial e-commerce site",
+    stack: "The Wise Root",
     buttonLabel: "View project",
-    url: "https://gatsby-query-practice.netlify.app/",
+    url: "https://thewiseroot.uk/",
   },
 ];
