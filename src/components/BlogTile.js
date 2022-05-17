@@ -8,7 +8,6 @@ import {
 } from "../utils/functions";
 
 const BlogTile = (props) => {
-  console.log(props);
   const { title, link, content, pubDate } = props.blogDate;
 
   function blogPost() {

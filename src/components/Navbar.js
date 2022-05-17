@@ -51,7 +51,7 @@ function Navbar() {
             </Link>
 
             <Link to="/talks" className="navlinks" onClick={closeMolibeMenu}>
-              <li className="nav-item">Tech Talks</li>
+              <li className="nav-item">Talks</li>
             </Link>
 
             <Link
