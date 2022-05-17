@@ -38,8 +38,8 @@ function Navbar() {
             {click ? <FaTimes /> : <FaBars />}
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <Link to="/about" className="navlinks" onClick={closeMolibeMenu}>
-              <li className="nav-item">About</li>
+            <Link to="/" className="navlinks" onClick={closeMolibeMenu}>
+              <li className="nav-item">Home</li>
             </Link>
 
             <Link to="/projects" className="navlinks" onClick={closeMolibeMenu}>
