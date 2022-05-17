@@ -1,7 +1,7 @@
 import ncNewsImg from "../../../assets/nc-news-image.png";
 import festiveMatchImg from "../../../assets/festive-match.png";
 import nasaImg from "../../../assets/nasa-image.png";
-import gatsbyImg from "../../../assets/gatsby-image.png";
+import wiseRootImg from "../../../assets/wise-root-image.png";
 export const projectObj = [
   {
     image: "i am an image",
@@ -52,7 +52,7 @@ export const projectObj = [
     image: wiseRootImg,
     project: "The Wise Root",
     information: "Live commercial e-commerce site",
-    stack: "The Wise Root",
+    stack: "Gatsby Javascript React Bootstrap",
     buttonLabel: "View project",
     url: "https://thewiseroot.uk/",
   },
