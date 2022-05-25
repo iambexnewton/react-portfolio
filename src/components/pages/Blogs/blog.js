@@ -1,6 +1,7 @@
 import React from "react";
 import BlogContainer from "../../BlogContainer";
 import "../../../components/Blog.css";
+import ExternalBlogs from "../../ExternalBlogs";
 
 function Blogs() {
   document.title = "Blogs";
@@ -12,6 +13,7 @@ function Blogs() {
           <div className="text">A preview of my last 3 Blogs.</div>
           <BlogContainer />
         </div>
+        <ExternalBlogs />
       </section>
     </main>
   );

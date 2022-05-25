@@ -8,6 +8,7 @@ import Footer from "./components/pages/Footer/Footer.js";
 import Blogs from "./components/pages/Blogs/blog";
 import Projects from "./components/pages/Projects/projects";
 import Contacts from "./components/pages/Contact/Contact";
+import Talks from "./components/pages/Talks/talks.js";
 
 function App() {
   return (
